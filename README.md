@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Hola, soy Marcos Anton.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Soy un desarrollador Full-Stack con especialidad en Backend.
+Este es mi portafolio personal y tiene como idea presentar mi metodologia de trabajo, tecnicas de trabajo.
 
-Currently, two official plugins are available:
+Tambien tiene como intencion usar la API de Spotify desde mi backend en Spring-Boot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend
 
-## Expanding the ESLint configuration
+Puedes encontrar mi backend en el siguiente repositorio de GitHub:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[https://github.com/NovaAntonsito/springBootSpotifyAPI](https://github.com/NovaAntonsito/springBootSpotifyAPI)
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologías
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Las tecnologías que uso son:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Spring Boot
+- Nest.JS
+- Node.JS
+- Express
+- React
+- TypeScript
+
+## Comandos
+
+### `npm start`
+
+Ejecuta la aplicación en modo de desarrollo.
+Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
+
+La página se recargará cuando hagas cambios.
+También puedes ver los errores de lint en la consola.
+
+### `npm test`
+
+Lanza el corredor de pruebas en modo de observación interactivo.
+Consulta la sección sobre la ejecución de pruebas para obtener más información.
+
+### `npm run build`
+
+Construye la aplicación para producción en la carpeta `build`.
+Correctamente agrupa React en modo de producción y optimiza la construcción para el mejor rendimiento.
+
+La construcción está minificada y los nombres de archivos incluyen los hashes.
+¡Tu aplicación está lista para ser desplegada!
+
+Consulta la sección sobre despliegue para obtener más información.
